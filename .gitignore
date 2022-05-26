@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+
+# environment variables
+.env*
+!.env.example
+
+# logs
+*.log
+
+# output
+.next

@@ -1,0 +1,13 @@
+{
+  "extends": "@stardust-configs/tsconfig/next.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@client/*": ["./src/client/*"],
+      "@server/*": ["./src/server/*"]
+    },
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
