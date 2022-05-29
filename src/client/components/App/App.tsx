@@ -1,8 +1,8 @@
 import { Navigation } from '@client/components/shared/Navigation'
 
-export const Home = () => (
+export const App = () => (
   <>
     <Navigation />
-    <h1>Hello world!</h1>
+    <h1>App</h1>
   </>
 )

@@ -1,9 +1,9 @@
-import { Home } from '@client/components/Home'
+import { LoginContainer } from '@client/components/Login'
 import { PageWrapperContainer } from '@client/components/shared/PageWrapper'
 
 const Page = () => (
   <PageWrapperContainer>
-    <Home />
+    <LoginContainer />
   </PageWrapperContainer>
 )
 

@@ -1,9 +1,9 @@
-import { Home } from '@client/components/Home'
+import { App } from '@client/components/App'
 import { PageWrapperContainer } from '@client/components/shared/PageWrapper'
 
 const Page = () => (
-  <PageWrapperContainer>
-    <Home />
+  <PageWrapperContainer isAuthentication={true}>
+    <App />
   </PageWrapperContainer>
 )
 
